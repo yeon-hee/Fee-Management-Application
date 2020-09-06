@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="'월'을 선택하세요"
+        android:padding="5dp"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#f9eec3"
+        android:gravity="center"
+        android:spinnerMode="dialog"
+        android:visibility="visible"></Spinner>
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:text="미납자"
+        android:textColor="#FF0000"
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvInfo_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="list"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/Info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="2016722035" />
+
+</LinearLayout>
